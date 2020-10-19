@@ -21,16 +21,16 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="Tabris-cordova-plugin"
       version="1.3.4">
-    <name>Whitelist</name>
-    <description>Cordova Network Whitelist Plugin</description>
+    <name>Device</name>
+    <description>Cordova Network Device Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,whitelist,policy</keywords>
+    <keywords>cordova,device,policy</keywords>
 
     <engines>
       <engine name="cordova-android" version=">=4.0.0" />
     </engines>
  <js-module src="www/Device.js" name="Device">
-        <clobbers target="TDevice" />
+        <clobbers target="cordova.TDevice" />
     </js-module>
 
   <!--   <platform name="android">
