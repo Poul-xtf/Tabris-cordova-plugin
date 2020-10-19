@@ -51,7 +51,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/Device.java" target-dir="src/org/apache/cordova/Device" />
+        <source-file src="src/android/Device.java" target-dir="src/org/apache/cordova" />
     </platform>
 
 </plugin>
