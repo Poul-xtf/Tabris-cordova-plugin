@@ -87,7 +87,7 @@
 
 class Calendar extends tabris.Widget {
     constructor(){
-        super.constructor()
+        super()
     }
 
   _listen() {
