@@ -30,7 +30,7 @@
       <engine name="cordova-android" version=">=4.0.0" />
     </engines>
  <js-module src="www/Device.js" name="Device">
-        <clobbers target="cordova.TDevice" />
+        <clobbers target="TDevice" />
     </js-module>
 
   <!--   <platform name="android">
