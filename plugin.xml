@@ -19,7 +19,7 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="cordova-plugin-whitelist"
+           id="Tabris-cordova-plugin"
       version="1.3.4">
     <name>Whitelist</name>
     <description>Cordova Network Whitelist Plugin</description>
@@ -34,7 +34,7 @@
         <clobbers target="device" />
     </js-module>
 
-    <platform name="android">
+<!--     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Whitelist" >
                 <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin"/>
@@ -43,6 +43,17 @@
         </config-file>
 
         <source-file src="src/android/WhitelistPlugin.java" target-dir="src/org/apache/cordova/whitelist" />
+    </platform> -->
+
+      <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Device" >
+                <param name="android-package" value="org.apache.cordova.device.Device"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Device.java" target-dir="src/org/apache/cordova/device" />
     </platform>
 
 </plugin>
