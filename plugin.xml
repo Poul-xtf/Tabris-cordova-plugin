@@ -29,12 +29,11 @@
     <engines>
       <engine name="cordova-android" version=">=4.0.0" />
     </engines>
-
-      <js-module src="www/device.js" name="device">
-        <clobbers target="device" />
+ <js-module src="www/Device.js" name="Device">
+        <clobbers target="T-Device" />
     </js-module>
 
-<!--     <platform name="android">
+  <!--   <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Whitelist" >
                 <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin"/>
@@ -44,7 +43,6 @@
 
         <source-file src="src/android/WhitelistPlugin.java" target-dir="src/org/apache/cordova/whitelist" />
     </platform> -->
-
       <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
@@ -53,7 +51,7 @@
             </feature>
         </config-file>
 
-        <source-file src="src/android/Device.java" target-dir="src/org/apache/cordova/device" />
+        <source-file src="src/android/Device.java" target-dir="src/org/apache/cordova/Device" />
     </platform>
 
 </plugin>
