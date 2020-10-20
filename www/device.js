@@ -85,7 +85,7 @@
 // module.exports = new Device();
 
 
-class Calendar extends tabris.Widget {
+class Calendar/* extends tabris.Widget */{
     // constructor(){
     //     super()
     // }
