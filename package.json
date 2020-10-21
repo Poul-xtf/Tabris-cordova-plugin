@@ -1,0 +1,17 @@
+{
+  "name": "org.apache.cordova.test",
+  "version": "1.0.0",
+  "description": "这是一个Cordova的一个Andoird插件",
+   "cordova": {
+    "id": "test_plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xuxu",
+  "license": "ISC"
+}
